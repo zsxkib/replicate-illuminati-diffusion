@@ -6,7 +6,10 @@ This is an implementation of the [Diffusers Stable Diffusion v2.1](https://huggi
 
 First, download the pre-trained weights:
 
-    cog run script/download-weights 
+    cog run script/download-weights
+    wget https://huggingface.co/Sosaka/Illuminati/resolve/main/embeddings/nfixer.pt
+    wget https://huggingface.co/Sosaka/Illuminati/resolve/main/embeddings/nartfixer.pt
+    wget https://huggingface.co/Sosaka/Illuminati/resolve/main/embeddings/nrealfixer.pt
 
 Then, you can run predictions:
 
