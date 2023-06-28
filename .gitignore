@@ -3,3 +3,4 @@ __pycache__/
 diffusers-cache/
 nartfixer.pt
 *.pt
+*.ipynb
